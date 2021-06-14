@@ -1,7 +1,7 @@
 package ayds.jkhera2.nytimes.nytimes.external.article
 
-import ayds.hera.songinfo.moredetails.model.entities.NYTArticle
-import ayds.hera.songinfo.moredetails.model.repository.external.nytimes.NYTArticleService
+import ayds.jkhera2.nytimes.nytimes.external.entities.NYTArticle
+import ayds.jkhera2.nytimes.nytimes.external.NYTArticleService
 import retrofit2.Response
 
 internal class NYTArticleServiceImpl(

@@ -1,6 +1,6 @@
 package ayds.jkhera2.nytimes.nytimes.external
 
-import ayds.hera.songinfo.moredetails.model.entities.NYTArticle
+import ayds.jkhera2.nytimes.nytimes.external.entities.NYTArticle
 
 interface NYTArticleService {
     fun getArticleInfo(nameOfArtist: String): NYTArticle?

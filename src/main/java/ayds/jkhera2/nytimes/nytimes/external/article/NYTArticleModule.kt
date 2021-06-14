@@ -1,6 +1,6 @@
 package ayds.jkhera2.nytimes.nytimes.external.article
 
-import ayds.hera.songinfo.moredetails.model.repository.external.nytimes.NYTArticleService
+import ayds.jkhera2.nytimes.nytimes.external.NYTArticleService
 import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory
 
