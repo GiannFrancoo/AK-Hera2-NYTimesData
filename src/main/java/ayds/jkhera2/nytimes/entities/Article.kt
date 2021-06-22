@@ -1,4 +1,4 @@
-package ayds.jkhera2.nytimes.nytimes.external.entities
+package ayds.jkhera2.nytimes.entities
 
 interface Article {
     val description: String

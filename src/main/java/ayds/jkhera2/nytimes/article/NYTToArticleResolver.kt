@@ -1,6 +1,6 @@
-package ayds.jkhera2.nytimes.nytimes.external.article
+package ayds.jkhera2.nytimes.article
 
-import ayds.jkhera2.nytimes.nytimes.external.entities.*
+import ayds.jkhera2.nytimes.entities.NYTArticle
 import com.google.gson.Gson
 import com.google.gson.JsonObject
 

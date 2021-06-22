@@ -1,4 +1,4 @@
-package ayds.jkhera2.nytimes.nytimes.external.article
+package ayds.jkhera2.nytimes.article
 
 import retrofit2.Call
 import retrofit2.http.GET

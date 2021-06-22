@@ -1,7 +1,7 @@
-package ayds.jkhera2.nytimes.nytimes.external.article
+package ayds.jkhera2.nytimes.article
 
-import ayds.jkhera2.nytimes.nytimes.external.entities.NYTArticle
-import ayds.jkhera2.nytimes.nytimes.external.NYTArticleService
+import ayds.jkhera2.nytimes.entities.NYTArticle
+import ayds.jkhera2.nytimes.NYTArticleService
 import retrofit2.Response
 
 internal class NYTArticleServiceImpl(

@@ -1,6 +1,6 @@
-package ayds.jkhera2.nytimes.nytimes.external.article
+package ayds.jkhera2.nytimes.article
 
-import ayds.jkhera2.nytimes.nytimes.external.NYTArticleService
+import ayds.jkhera2.nytimes.NYTArticleService
 import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory
 
