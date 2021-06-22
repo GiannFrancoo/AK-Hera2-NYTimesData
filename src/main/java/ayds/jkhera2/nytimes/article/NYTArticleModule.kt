@@ -4,7 +4,7 @@ import ayds.jkhera2.nytimes.NYTArticleService
 import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory
 
-object NYTArticleModule {
+internal object NYTArticleModule {
 
     private const val NYT_URL = "https://api.nytimes.com/svc/search/v2/"
     private val nytAPIRetrofit = Retrofit.Builder()
