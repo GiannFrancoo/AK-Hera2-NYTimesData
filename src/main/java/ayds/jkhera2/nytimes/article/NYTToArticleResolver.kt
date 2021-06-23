@@ -1,11 +1,11 @@
 package ayds.jkhera2.nytimes.article
 
-import ayds.jkhera2.nytimes.entities.NYTArticle
+import ayds.jkhera2.nytimes.entities.Article
 import com.google.gson.Gson
 import com.google.gson.JsonObject
 
 interface NYTToArticleResolver {
-    fun getArticleFromExternalData(serviceData: String?): NYTArticle?
+    fun getArticleFromExternalData(serviceData: String?): Article?
 }
 
 private const val RESPONSE = "response"
@@ -17,10 +17,10 @@ private const val LOGO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:AN
 
 internal class JsonToArticleResolver : NYTToArticleResolver {
 
-    override fun getArticleFromExternalData(serviceData: String?): NYTArticle? =
+    override fun getArticleFromExternalData(serviceData: String?): Article? =
         try {
             serviceData?.getFirstItem()?.let { item ->
-                NYTArticle(
+                Article(
                     item.getAbstractFormatted(),
                     item.getWebURL(),
                     LOGO_URL,

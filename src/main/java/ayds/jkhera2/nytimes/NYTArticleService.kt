@@ -1,7 +1,7 @@
 package ayds.jkhera2.nytimes
 
-import ayds.jkhera2.nytimes.entities.NYTArticle
+import ayds.jkhera2.nytimes.entities.Article
 
 interface NYTArticleService {
-    fun getArticleInfo(nameOfArtist: String): NYTArticle?
+    fun getArticleInfo(nameOfArtist: String): Article?
 }
